@@ -4,7 +4,7 @@ body {
 	font: Arial, Helvetica, sans-serif;
 	line-height: 32px;
 	color: #777777;
-	background-color: blue;
+	background-image: url("../images/congruent_outline.png");
 }
 	 a:link {
     text-decoration: none;
@@ -84,13 +84,12 @@ div.pagebody {
 
 div.about {
 	position: absolute;
-	width: 700px;
+	width: 850px;
 	height: 400px;
 	background: white;
 	margin-top: 75px;
 	margin-left: 50px;
 	padding: 20px;
-	
 	margin-bottom: 50px;
 	text-align: left;
 }
@@ -101,13 +100,55 @@ p {
 	margin-bottom: 20px;
 }
 
+div.portfolio {
+	position: absolute;
+	width: 850px;
+	height: 1150px;
+	background: white;
+	margin-top: 75px;
+	margin-left: 50px;
+	padding: 20px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
+div.pictureblock {
+	float: left;
+	margin: 10px 10px 10px 10px;
+	left: 15px;
+	height: 300px;
+	width: 400px;
+}
+
+figcaption {
+	position: relative;
+	bottom: 50px;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-style: bold;
+}
+
+form {
+	position: absolute;
+	width: 850px;
+	height: 400px;
+	background: white;
+	margin-top: 75px;
+	margin-left: 50px;
+	padding: 20px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
 div.connect {
-	position:absolute;
+	position:fixed;
+	right: 0px;
 	width: 20%;
 	height: 150px;
 	background: white;
-	right: 0;
-	margin-top: 50px;
+	margin-top: 75px;
 	margin-right: 50px;
 	font-size: 15px;
 	text-align: center;
@@ -118,8 +159,10 @@ div.footer {
 	width: 100%;
 	height: 50px;
 	bottom: 0;
+	padding: 10px;
 	background: #f2f2f2;
 	text-align: center;
-	font-size: 10;
+	vertical-align: center;
+	font-size: 12;
 	font-color: #333333;
 }
