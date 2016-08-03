@@ -26,27 +26,26 @@ body {
     color: #777777;
 	}
 
-div.wrapper {
+.wrapper {
 width:100%;
 height:70px;
 background: white;
 position: fixed;
 top: 0;
-margin-top: 0px;
-margin-bottom: 0;
-border-bottom: 5px, #cccccc;
-z-index: 3;
+border-bottom: 25px, #4aaaa5;
+z-index: 3
+
 
 }
 
 h1 {
 	position: fixed;
 	background: #4aaaa5;
-	width: 25%;
+	width: 325px;
 	height: 50px;
 	padding: 10px;
 	margin: 0;
-	left: 25;
+	left: 50;
 	font-family: Georgia, Times, serif;
 	font-size: 24px;
 	text-align: center;
@@ -76,27 +75,25 @@ span.navigationSpace {
    padding: 0 20px 20px 0;
 }
 
-div.pagebody {
+.pagebody {
 	margin-top: 0px;
 	height: 1500px;
 	margin-bottom: 5%;
 }
 
 
-div.about {
+.about {
 	position: absolute;
 	width: 650px;
 	height: 400px;
 	background: white;
-	margin-top: 75px;
+	top: 100px;
 	margin-left: 50px;
 	padding: 20px;
 	border-width: 5px;
 	border-color: #ffffff;
 	text-align: left;
-	word-wrap:break-word;
-    overflow:hidden;
-    text-overflow:ellipsis;
+	
 }
 
 p {
@@ -109,9 +106,9 @@ div.portfolio {
 	position: absolute;
 	overflow: auto;
 	width: 650px;
-	height: 1150px;
+	height: 800px;
 	background: white;
-	margin-top: 75px;
+	top: 100px;
 	margin-left: 50px;
 	padding: 10px;
 	margin-bottom: 50px;
@@ -141,26 +138,58 @@ figcaption {
 
 form {
 	position: absolute;
-	width: 850px;
+	width: 650px;
 	height: 400px;
 	background: white;
-	margin-top: 75px;
+	top: 100px;
 	margin-left: 50px;
 	padding: 20px;
 	margin-bottom: 50px;
+	border-width: 5px;
+	border-color: #ffffff;
 	text-align: left;
 }
 
+#YourName {
+	width:250px;
+}
+
+#emailaddress {
+	width:250px;
+}
+
+#message {
+	width:550px;
+	height:100px;
+}
+
+textarea {
+	width: 550px;
+	height: 10em;
+} 
+
+button {
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #4aaaa5;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: 30px;
+  border-radius: 15px;
+  border: 1p solid #999;
+}
 div.connect {
 	position:fixed;
 	overflow: auto;
-	right: 0px;
+	right: 25px;
+	top: 100px;
 	width: 270px;
 	height: 150px;
 	background: white;
-	margin-top: 75px;
-	margin-right: 50px;
-	font-size: 25px;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-size: 24px;
 	text-align: center;
 }
 
