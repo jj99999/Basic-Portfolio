@@ -5,37 +5,22 @@ body {
 	line-height: 32px;
 	color: #777777;
 	background-image: url("../images/congruent_outline.png");
+
 }
-	 a:link {
+	 a {
     text-decoration: none;
     color: #777777;
 	}
 
-	a:visited {
-    text-decoration: none;
-    color: #777777;
-	}
 
-	a:hover {
-    text-decoration: none;
-    color: #777777;
-	}
-
-	a:active {
-    text-decoration: none;
-    color: #777777;
-	}
-
-.wrapper {
-width:100%;
-height:70px;
-background: white;
-position: fixed;
-top: 0;
-border-bottom: 25px, #4aaaa5;
-z-index: 3
-
-
+.header {
+	position: fixed;
+	top: 0;
+	width:100%;
+	height:70px;
+	background: white;
+	border-bottom: 3px solid #4aaaa5;
+	z-index: 3
 }
 
 h1 {
@@ -61,7 +46,7 @@ nav {
 	width: 300px;
 	height: 30px;
 	padding: 20px;
-	color: #000000;
+	color: #777777;
 	top: 0;
 	right: 0;
 }
@@ -93,7 +78,13 @@ span.navigationSpace {
 	border-width: 5px;
 	border-color: #ffffff;
 	text-align: left;
-	
+}
+
+h2 {
+	color: #4aaaa5;
+}
+hr {
+	width:620px;
 }
 
 p {
@@ -102,7 +93,7 @@ p {
 	margin-bottom: 20px;
 }
 
-div.portfolio {
+.portfolio {
 	position: absolute;
 	overflow: auto;
 	width: 650px;
@@ -112,12 +103,11 @@ div.portfolio {
 	margin-left: 50px;
 	padding: 10px;
 	margin-bottom: 50px;
-	border-width: 5px;
-	border-color: #ffffff;
 	text-align: left;
+	color: #4aaaa5;
 }
 
-div.pictureblock {
+.pictureblock {
 	float: left;
 	margin: 10px 10px 10px 10px;
 	left: 15px;
@@ -139,12 +129,11 @@ figcaption {
 form {
 	position: absolute;
 	width: 650px;
-	height: 400px;
+	height: 500px;
 	background: white;
 	top: 100px;
 	margin-left: 50px;
 	padding: 20px;
-	margin-bottom: 50px;
 	border-width: 5px;
 	border-color: #ffffff;
 	text-align: left;
@@ -161,6 +150,7 @@ form {
 #message {
 	width:550px;
 	height:100px;
+	padding: 0px 0px 10px 0px;
 }
 
 textarea {
@@ -179,9 +169,8 @@ button {
   border-radius: 15px;
   border: 1p solid #999;
 }
-div.connect {
+.connect {
 	position:fixed;
-	overflow: auto;
 	right: 25px;
 	top: 100px;
 	width: 270px;
@@ -193,15 +182,16 @@ div.connect {
 	text-align: center;
 }
 
-div.footer {
+.footer {
 	position: fixed;
+	bottom:0;
 	width: 100%;
 	height: 50px;
-	bottom: 0;
 	padding: 10px;
 	background: #f2f2f2;
 	text-align: center;
 	vertical-align: center;
 	font-size: 12;
 	font-color: #333333;
+	border-top: 5px solid #4aaaa5;
 }
